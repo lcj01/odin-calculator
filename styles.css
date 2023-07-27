@@ -1,0 +1,87 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #45bccc;
+}
+
+h1 {
+    color: #378791;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holder {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 500px;
+    height: 600px;
+    /* background-color: #275459; */
+    border-radius: 50px;
+}
+
+.display {
+    width: 425px;
+    height: 100px;
+    background-color: #a1c99f;
+    border-radius: 25px;
+    margin-top: 40px;
+    font-size: 48px;
+}
+
+#buttons {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-one {
+    margin-top: 15px;
+}
+
+#buttons button{
+    width: 105px;
+    height: 65px;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#buttons button.special{
+    width: 220px;
+    height: 65px;
+    background-color: white;
+}
+
+#buttons .row-four .button-equal{
+    background-color: #f58271;
+}
+
+#buttons .row-one .button-divide.operator,
+#buttons .row-two .button-multiply.operator,
+#buttons .row-three .button-subtract.operator,
+#buttons .row-four .button-add.operator {
+    background-color: #51c7e8
+}
+
+.center {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 25px;
+}
